@@ -1,1 +1,1 @@
-nphup python -jar ./dist/patronum.jar 1>&2 &
+nohup python -jar ./dist/patronum.jar 1>&2 &
