@@ -41,7 +41,7 @@ print("Spring boot backend source code pull.")
 
 # 2. 构建后端
 # 使用mvnw构建后端
-child = subprocess.Popen("mvnw clean package", shell=True)
+child = subprocess.Popen("./mvnw clean package", shell=True)
 child.wait()
 print("Spring boot backend built.")
 # 回到根目录
