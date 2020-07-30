@@ -1,0 +1,1 @@
+nphup python -jar ./dist/patronum.jar 1>&2 &
