@@ -41,8 +41,7 @@ print("Spring boot backend source code pull.")
 
 # 2. 构建后端
 # 添加mvnm权限
-child = subprocess.Popen("chmod 777 ./mvnw", shell=True)
-child.wait()
+os.chmod("./mvnw", 777)
 # 使用mvnw构建后端
 child = subprocess.Popen("./mvnw clean package", shell=True)
 child.wait()
