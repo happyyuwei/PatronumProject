@@ -49,6 +49,6 @@ os.chdir("../")
 
 
 # 3. 将该构建的jar移至dist目录
-shutil.copyfile(os.path.join(".", "patronum", "target",
+shutil.copyfile(os.path.join(".", "patronum-backend", "target",
                              "patronum-0.0.1-SNAPSHOT.jar"), os.path.join(".", "dist", "patronum.jar"))
 print("backend Jar file moved to dist")
