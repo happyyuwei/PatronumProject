@@ -32,7 +32,7 @@ Patronum
 # 1. 拉取最新源码
 
 # 进入后端工程
-os.chdir(os.path.join(".", "patronum"))
+os.chdir(os.path.join(".", "patronum-backend"))
 # pull
 child = subprocess.Popen("git pull", shell=True)
 child.wait()
