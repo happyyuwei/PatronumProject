@@ -10,6 +10,7 @@
 import os
 import shutil
 import subprocess
+import stat
 
 """[summary]
 
@@ -41,7 +42,7 @@ print("Spring boot backend source code pull.")
 
 # 2. 构建后端
 # 添加mvnm权限
-os.chmod("./mvnw", 777)
+os.chmod("./mvnw", stat.S_IXOTH)
 # 使用mvnw构建后端
 child = subprocess.Popen("./mvnw clean package", shell=True)
 child.wait()
