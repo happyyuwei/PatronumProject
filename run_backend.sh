@@ -1,1 +1,1 @@
-nohup python -jar ./dist/patronum.jar 1>&2 &
+nohup java -jar ./dist/patronum.jar 1>&2 &
