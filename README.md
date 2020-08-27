@@ -3,7 +3,7 @@
 Android + Spring boot + MySQL   
 
 
-<img src="doc\main.jpg" width="500">
+<img src="./doc/main.jpg" width="500">
 
 纪念一下在测试了一个月后，终于把工程部署到云上了。原本是直接运行在家里的物理机上的，但前几天运营商频繁变更 IP 地址导致时不时无法访问服务，也便加速了部署过程。
 
